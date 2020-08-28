@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "sparta-psytest-gun",
+    "description":"desc test",
     "slug": "sparta-psytest-gun",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,7 +18,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+          "supportsTablet": true,
+          "buildNumber": "1.0.0",
+          "bundleIdentifier": "com.sparta.psytest",
+          "config": {
+            "googleMobileAdsAppId": ""
+          }
+    },
+    "android": {
+          "package": "com.sparta.psytest",
+          "versionCode": 1,
+          "config": {
+            "googleMobileAdsAppId": ""
+          }
     },
     "web": {
       "favicon": "./assets/favicon.png"
